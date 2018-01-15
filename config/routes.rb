@@ -4,7 +4,6 @@
 
 
 Rails.application.routes.draw do
-  # root 'twitters#index'
   root 'tops#index'
   
   resources :twitters do

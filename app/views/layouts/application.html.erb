@@ -29,7 +29,8 @@
   <div id="container">
      <div id="header">
        <div class="header_wrap">
-          <button class="buttonHeader" type="submit" onclick="location.href='./'">ホーム</button>
+          <!--<button class="buttonHeader" type="submit" onclick="location.href='./'">ホーム</button>-->
+          <button class="buttonHeader"><%= link_to 'ホーム', root_path %></button>
           <button class="buttonHeader"><%= link_to 'つぶやき一覧', twitters_path %>
           <button class="buttonHeader"><%= link_to '新規投稿', new_twitter_path %></button>
        </div>
