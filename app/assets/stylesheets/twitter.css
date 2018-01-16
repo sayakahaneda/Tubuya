@@ -72,9 +72,13 @@ a:hover{
 	opacity:0.8;
 }
 
+.content_tweet{
+  word-wrap: break-word;
+}
 
-
-
+.content_body  p{
+  word-wrap: break-word;
+}
 
 
 
