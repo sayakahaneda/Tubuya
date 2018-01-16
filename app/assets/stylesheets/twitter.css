@@ -456,3 +456,7 @@ a:hover{
 	padding:5px;
 	width:570px;
 }
+
+.aaaa p{
+  word-wrap: break-word;
+}
